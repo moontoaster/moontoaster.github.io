@@ -66,7 +66,8 @@ with open('signal-colors.html', 'w') as colors_html:
             <div class="color-grid">
                 {bubble_colors_gradient}
             </div>
-            
+
+            <hr>
             Sourced from 
             <a href="https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/ChatColorsPalette.kt">
                 https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/ChatColorsPalette.kt
