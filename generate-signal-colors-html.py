@@ -38,6 +38,7 @@ with open('signal-colors.html', 'w') as colors_html:
     name_colors_dark = join_strs(map(lambda c: single_color(c['dark']), colors['nameColors']))
     bubble_colors_solid = join_strs(map(lambda c: single_color(c['color'], identifier=c['id']), colors['bubbleSolidColors']))
     bubble_colors_gradient = join_strs(map(lambda c: gradient(c['degrees'], c['colors'], c['positions'], c['id']), colors['bubbleGradientColors']))
+    avatar_gradients = join_strs(map(lambda g: gradient(180, [g['from'], g['to']], [0, 1]), colors['avatarGradients']))
 
     html = f'''
     <!DOCTYPE html>
@@ -66,12 +67,30 @@ with open('signal-colors.html', 'w') as colors_html:
             <div class="color-grid">
                 {bubble_colors_gradient}
             </div>
+            
+            <h1>Bubble colors (gradient)</h1>
+            <div class="color-grid">
+                {bubble_colors_gradient}
+            </div>
+            
+            <h1>Avatar gradients (whatever that is)</h1>
+            <div class="color-grid">
+                {avatar_gradients}
+            </div>
 
             <hr>
             Sourced from 
-            <a href="https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/ChatColorsPalette.kt">
-                https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/ChatColorsPalette.kt
-            </a>
+            <ul>
+                <li>
+                    <a href="https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/ChatColorsPalette.kt">
+                        https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/ChatColorsPalette.kt
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/AvatarGradientColors.kt">
+                        https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/AvatarGradientColors.kt
+                    </a>
+                </li>
         </body>
     </html>
     '''

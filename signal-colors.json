@@ -308,5 +308,87 @@
         1
       ]
     }
+  ],
+  "avatarGradients": [
+    {
+      "from": "#252568FF",
+      "to": "#9C8F8FFF"
+    },
+    {
+      "from": "#2A4275FF",
+      "to": "#9D9EA1FF"
+    },
+    {
+      "from": "#2E4B5FFF",
+      "to": "#8AA9B1FF"
+    },
+    {
+      "from": "#2E426CFF",
+      "to": "#7A9377FF"
+    },
+    {
+      "from": "#1A341AFF",
+      "to": "#807F6EFF"
+    },
+    {
+      "from": "#464E42FF",
+      "to": "#D5C38FFF"
+    },
+    {
+      "from": "#595643FF",
+      "to": "#93A899FF"
+    },
+    {
+      "from": "#2C2F36FF",
+      "to": "#687466FF"
+    },
+    {
+      "from": "#2B1E18FF",
+      "to": "#968980FF"
+    },
+    {
+      "from": "#7B7067FF",
+      "to": "#A5A893FF"
+    },
+    {
+      "from": "#706359FF",
+      "to": "#BDA194FF"
+    },
+    {
+      "from": "#383331FF",
+      "to": "#A48788FF"
+    },
+    {
+      "from": "#924F4FFF",
+      "to": "#897A7AFF"
+    },
+    {
+      "from": "#663434FF",
+      "to": "#C58D77FF"
+    },
+    {
+      "from": "#8F4B02FF",
+      "to": "#AA9274FF"
+    },
+    {
+      "from": "#784747FF",
+      "to": "#8C8F6FFF"
+    },
+    {
+      "from": "#747474FF",
+      "to": "#ACACACFF"
+    },
+    {
+      "from": "#49484CFF",
+      "to": "#A5A6B5FF"
+    },
+    {
+      "from": "#4A4E4DFF",
+      "to": "#ABAFAEFF"
+    },
+    {
+      "from": "#3A3A3AFF",
+      "to": "#929887FF"
+    }
   ]
 }
