@@ -1,102 +1,599 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            .c {
-                display: block;
-                width: 64px;
-                height: 64px;
-                border-radius: 100%;
-            }
-        </style>
-    </head>
 
-    <body>
-        Sourced from <a href="https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/ChatColorsPalette.kt">this file in Signal's Android app</a>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="signal-colors.css">
+        </head>
 
-        <h1>Name colors</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th scope="col">Hex (light)</th>
-                    <th scope="col">Color (light)</th>
-                    <th scope="col">Hex (dark)</th>
-                    <th scope="col">Color (dark)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>#006da3ff</td><td><span class="c" style="background:#006da3ff"></span></td><td>#00a7faff</td><td><span class="c" style="background:#00a7faff"></span></td></tr>
-                <tr><td>#067906ff</td><td><span class="c" style="background:#067906ff"></span></td><td>#0ab80aff</td><td><span class="c" style="background:#0ab80aff"></span></td></tr>
-                <tr><td>#b814b8ff</td><td><span class="c" style="background:#b814b8ff"></span></td><td>#f65af6ff</td><td><span class="c" style="background:#f65af6ff"></span></td></tr>
-                <tr><td>#c13215ff</td><td><span class="c" style="background:#c13215ff"></span></td><td>#ff6f52ff</td><td><span class="c" style="background:#ff6f52ff"></span></td></tr>
-                <tr><td>#5b6976ff</td><td><span class="c" style="background:#5b6976ff"></span></td><td>#8ba1b6ff</td><td><span class="c" style="background:#8ba1b6ff"></span></td></tr>
-                <tr><td>#cc0066ff</td><td><span class="c" style="background:#cc0066ff"></span></td><td>#f76eb2ff</td><td><span class="c" style="background:#f76eb2ff"></span></td></tr>
-                <tr><td>#2e51ffff</td><td><span class="c" style="background:#2e51ffff"></span></td><td>#8599ffff</td><td><span class="c" style="background:#8599ffff"></span></td></tr>
-                <tr><td>#007575ff</td><td><span class="c" style="background:#007575ff"></span></td><td>#00b2b2ff</td><td><span class="c" style="background:#00b2b2ff"></span></td></tr>
-                <tr><td>#9c5711ff</td><td><span class="c" style="background:#9c5711ff"></span></td><td>#d5920bff</td><td><span class="c" style="background:#d5920bff"></span></td></tr>
-                <tr><td>#d00b4dff</td><td><span class="c" style="background:#d00b4dff"></span></td><td>#ff6b9cff</td><td><span class="c" style="background:#ff6b9cff"></span></td></tr>
-                <tr><td>#8f2af4ff</td><td><span class="c" style="background:#8f2af4ff"></span></td><td>#bf80ffff</td><td><span class="c" style="background:#bf80ffff"></span></td></tr>
-                <tr><td>#3d7406ff</td><td><span class="c" style="background:#3d7406ff"></span></td><td>#5eb309ff</td><td><span class="c" style="background:#5eb309ff"></span></td></tr>
-                <tr><td>#d00b0bff</td><td><span class="c" style="background:#d00b0bff"></span></td><td>#ff7070ff</td><td><span class="c" style="background:#ff7070ff"></span></td></tr>
-                <tr><td>#007a3dff</td><td><span class="c" style="background:#007a3dff"></span></td><td>#00b85cff</td><td><span class="c" style="background:#00b85cff"></span></td></tr>
-                <tr><td>#5151f6ff</td><td><span class="c" style="background:#5151f6ff"></span></td><td>#9494ffff</td><td><span class="c" style="background:#9494ffff"></span></td></tr>
-                <tr><td>#866118ff</td><td><span class="c" style="background:#866118ff"></span></td><td>#d68f00ff</td><td><span class="c" style="background:#d68f00ff"></span></td></tr>
-                <tr><td>#067953ff</td><td><span class="c" style="background:#067953ff"></span></td><td>#00b87aff</td><td><span class="c" style="background:#00b87aff"></span></td></tr>
-                <tr><td>#a20cedff</td><td><span class="c" style="background:#a20cedff"></span></td><td>#cf7cf8ff</td><td><span class="c" style="background:#cf7cf8ff"></span></td></tr>
-                <tr><td>#4b7000ff</td><td><span class="c" style="background:#4b7000ff"></span></td><td>#74ad00ff</td><td><span class="c" style="background:#74ad00ff"></span></td></tr>
-                <tr><td>#c70a88ff</td><td><span class="c" style="background:#c70a88ff"></span></td><td>#f76ec9ff</td><td><span class="c" style="background:#f76ec9ff"></span></td></tr>
-                <tr><td>#b34209ff</td><td><span class="c" style="background:#b34209ff"></span></td><td>#f57a3dff</td><td><span class="c" style="background:#f57a3dff"></span></td></tr>
-                <tr><td>#06792dff</td><td><span class="c" style="background:#06792dff"></span></td><td>#0ab844ff</td><td><span class="c" style="background:#0ab844ff"></span></td></tr>
-                <tr><td>#7a3df5ff</td><td><span class="c" style="background:#7a3df5ff"></span></td><td>#af8af9ff</td><td><span class="c" style="background:#af8af9ff"></span></td></tr>
-                <tr><td>#6b6b24ff</td><td><span class="c" style="background:#6b6b24ff"></span></td><td>#a4a437ff</td><td><span class="c" style="background:#a4a437ff"></span></td></tr>
-                <tr><td>#d00b2cff</td><td><span class="c" style="background:#d00b2cff"></span></td><td>#f77389ff</td><td><span class="c" style="background:#f77389ff"></span></td></tr>
-                <tr><td>#2d7906ff</td><td><span class="c" style="background:#2d7906ff"></span></td><td>#42b309ff</td><td><span class="c" style="background:#42b309ff"></span></td></tr>
-                <tr><td>#af0bd0ff</td><td><span class="c" style="background:#af0bd0ff"></span></td><td>#e06ef7ff</td><td><span class="c" style="background:#e06ef7ff"></span></td></tr>
-                <tr><td>#32763eff</td><td><span class="c" style="background:#32763eff"></span></td><td>#4baf5cff</td><td><span class="c" style="background:#4baf5cff"></span></td></tr>
-                <tr><td>#2662d9ff</td><td><span class="c" style="background:#2662d9ff"></span></td><td>#7da1e8ff</td><td><span class="c" style="background:#7da1e8ff"></span></td></tr>
-                <tr><td>#76681eff</td><td><span class="c" style="background:#76681eff"></span></td><td>#b89b0aff</td><td><span class="c" style="background:#b89b0aff"></span></td></tr>
-                <tr><td>#067462ff</td><td><span class="c" style="background:#067462ff"></span></td><td>#09b397ff</td><td><span class="c" style="background:#09b397ff"></span></td></tr>
-                <tr><td>#6447f5ff</td><td><span class="c" style="background:#6447f5ff"></span></td><td>#a18ff9ff</td><td><span class="c" style="background:#a18ff9ff"></span></td></tr>
-                <tr><td>#5e6e0cff</td><td><span class="c" style="background:#5e6e0cff"></span></td><td>#8faa09ff</td><td><span class="c" style="background:#8faa09ff"></span></td></tr>
-                <tr><td>#077288ff</td><td><span class="c" style="background:#077288ff"></span></td><td>#00aed1ff</td><td><span class="c" style="background:#00aed1ff"></span></td></tr>
-                <tr><td>#c20aa3ff</td><td><span class="c" style="background:#c20aa3ff"></span></td><td>#f75fddff</td><td><span class="c" style="background:#f75fddff"></span></td></tr>
-                <tr><td>#2d761eff</td><td><span class="c" style="background:#2d761eff"></span></td><td>#43b42dff</td><td><span class="c" style="background:#43b42dff"></span></td></tr>
-            </tbody>
-        </table>
+        <body>
+            <h1>Name colors (light)</h1>
+            <div class="color-grid">
+                
+    <div class="color">
+        <div class="color-circle" style="background: #006da3ff"></div>
+        
+        <span class="color-hex">#006da3ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #067906ff"></div>
+        
+        <span class="color-hex">#067906ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #b814b8ff"></div>
+        
+        <span class="color-hex">#b814b8ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #c13215ff"></div>
+        
+        <span class="color-hex">#c13215ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #5b6976ff"></div>
+        
+        <span class="color-hex">#5b6976ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #cc0066ff"></div>
+        
+        <span class="color-hex">#cc0066ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #2e51ffff"></div>
+        
+        <span class="color-hex">#2e51ffff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #007575ff"></div>
+        
+        <span class="color-hex">#007575ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #9c5711ff"></div>
+        
+        <span class="color-hex">#9c5711ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #d00b4dff"></div>
+        
+        <span class="color-hex">#d00b4dff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #8f2af4ff"></div>
+        
+        <span class="color-hex">#8f2af4ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #3d7406ff"></div>
+        
+        <span class="color-hex">#3d7406ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #d00b0bff"></div>
+        
+        <span class="color-hex">#d00b0bff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #007a3dff"></div>
+        
+        <span class="color-hex">#007a3dff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #5151f6ff"></div>
+        
+        <span class="color-hex">#5151f6ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #866118ff"></div>
+        
+        <span class="color-hex">#866118ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #067953ff"></div>
+        
+        <span class="color-hex">#067953ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #a20cedff"></div>
+        
+        <span class="color-hex">#a20cedff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #4b7000ff"></div>
+        
+        <span class="color-hex">#4b7000ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #c70a88ff"></div>
+        
+        <span class="color-hex">#c70a88ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #b34209ff"></div>
+        
+        <span class="color-hex">#b34209ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #06792dff"></div>
+        
+        <span class="color-hex">#06792dff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #7a3df5ff"></div>
+        
+        <span class="color-hex">#7a3df5ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #6b6b24ff"></div>
+        
+        <span class="color-hex">#6b6b24ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #d00b2cff"></div>
+        
+        <span class="color-hex">#d00b2cff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #2d7906ff"></div>
+        
+        <span class="color-hex">#2d7906ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #af0bd0ff"></div>
+        
+        <span class="color-hex">#af0bd0ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #32763eff"></div>
+        
+        <span class="color-hex">#32763eff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #2662d9ff"></div>
+        
+        <span class="color-hex">#2662d9ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #76681eff"></div>
+        
+        <span class="color-hex">#76681eff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #067462ff"></div>
+        
+        <span class="color-hex">#067462ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #6447f5ff"></div>
+        
+        <span class="color-hex">#6447f5ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #5e6e0cff"></div>
+        
+        <span class="color-hex">#5e6e0cff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #077288ff"></div>
+        
+        <span class="color-hex">#077288ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #c20aa3ff"></div>
+        
+        <span class="color-hex">#c20aa3ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #2d761eff"></div>
+        
+        <span class="color-hex">#2d761eff</span>
+    </div>
+     
+            </div>
+            
+            <h1>Name colors (dark)</h1>
+            <div class="color-grid">
+                
+    <div class="color">
+        <div class="color-circle" style="background: #00a7faff"></div>
+        
+        <span class="color-hex">#00a7faff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #0ab80aff"></div>
+        
+        <span class="color-hex">#0ab80aff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #f65af6ff"></div>
+        
+        <span class="color-hex">#f65af6ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #ff6f52ff"></div>
+        
+        <span class="color-hex">#ff6f52ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #8ba1b6ff"></div>
+        
+        <span class="color-hex">#8ba1b6ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #f76eb2ff"></div>
+        
+        <span class="color-hex">#f76eb2ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #8599ffff"></div>
+        
+        <span class="color-hex">#8599ffff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #00b2b2ff"></div>
+        
+        <span class="color-hex">#00b2b2ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #d5920bff"></div>
+        
+        <span class="color-hex">#d5920bff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #ff6b9cff"></div>
+        
+        <span class="color-hex">#ff6b9cff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #bf80ffff"></div>
+        
+        <span class="color-hex">#bf80ffff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #5eb309ff"></div>
+        
+        <span class="color-hex">#5eb309ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #ff7070ff"></div>
+        
+        <span class="color-hex">#ff7070ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #00b85cff"></div>
+        
+        <span class="color-hex">#00b85cff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #9494ffff"></div>
+        
+        <span class="color-hex">#9494ffff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #d68f00ff"></div>
+        
+        <span class="color-hex">#d68f00ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #00b87aff"></div>
+        
+        <span class="color-hex">#00b87aff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #cf7cf8ff"></div>
+        
+        <span class="color-hex">#cf7cf8ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #74ad00ff"></div>
+        
+        <span class="color-hex">#74ad00ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #f76ec9ff"></div>
+        
+        <span class="color-hex">#f76ec9ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #f57a3dff"></div>
+        
+        <span class="color-hex">#f57a3dff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #0ab844ff"></div>
+        
+        <span class="color-hex">#0ab844ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #af8af9ff"></div>
+        
+        <span class="color-hex">#af8af9ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #a4a437ff"></div>
+        
+        <span class="color-hex">#a4a437ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #f77389ff"></div>
+        
+        <span class="color-hex">#f77389ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #42b309ff"></div>
+        
+        <span class="color-hex">#42b309ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #e06ef7ff"></div>
+        
+        <span class="color-hex">#e06ef7ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #4baf5cff"></div>
+        
+        <span class="color-hex">#4baf5cff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #7da1e8ff"></div>
+        
+        <span class="color-hex">#7da1e8ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #b89b0aff"></div>
+        
+        <span class="color-hex">#b89b0aff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #09b397ff"></div>
+        
+        <span class="color-hex">#09b397ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #a18ff9ff"></div>
+        
+        <span class="color-hex">#a18ff9ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #8faa09ff"></div>
+        
+        <span class="color-hex">#8faa09ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #00aed1ff"></div>
+        
+        <span class="color-hex">#00aed1ff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #f75fddff"></div>
+        
+        <span class="color-hex">#f75fddff</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #43b42dff"></div>
+        
+        <span class="color-hex">#43b42dff</span>
+    </div>
+     
+            </div>
 
-        <h1>Bubble colors</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th scope="col">Color ID</th>
-                    <th scope="col">Hex value(s)</th>
-                    <th scope="col">Color or gradient</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>ULTRAMARINE</td><td>#315FF4FF</td><td><span class="c" style="background:#315FF4FF"></span></td>
-                <tr><td>CRIMSON</td><td>#CF163EFF</td><td><span class="c" style="background:#CF163EFF"></span></td>
-                <tr><td>VERMILION</td><td>#C73F0AFF</td><td><span class="c" style="background:#C73F0AFF"></span></td>
-                <tr><td>BURLAP</td><td>#6F6A58FF</td><td><span class="c" style="background:#6F6A58FF"></span></td>
-                <tr><td>FOREST</td><td>#3B7845FF</td><td><span class="c" style="background:#3B7845FF"></span></td>
-                <tr><td>WINTERGREEN</td><td>#1D8663FF</td><td><span class="c" style="background:#1D8663FF"></span></td>
-                <tr><td>TEAL</td><td>#077D92FF</td><td><span class="c" style="background:#077D92FF"></span></td>
-                <tr><td>BLUE</td><td>#336BA3FF</td><td><span class="c" style="background:#336BA3FF"></span></td>
-                <tr><td>INDIGO</td><td>#6058CAFF</td><td><span class="c" style="background:#6058CAFF"></span></td>
-                <tr><td>VIOLET</td><td>#9932CBFF</td><td><span class="c" style="background:#9932CBFF"></span></td>
-                <tr><td>PLUM</td><td>#AA377AFF</td><td><span class="c" style="background:#AA377AFF"></span></td>
-                <tr><td>TAUPE</td><td>#8F616AFF</td><td><span class="c" style="background:#8F616AFF"></span></td>
-                <tr><td>STEEL</td><td>#71717FFF</td><td><span class="c" style="background:#71717FFF"></span></td>
-                <tr><td>EMBER</td><td>#E57C00FF, #5E0000FF</td><td><span class="c" style="background:linear-gradient(168deg,#E57C00FF,#5E0000FF)"></span></td></tr>
-                <tr><td>MIDNIGHT</td><td>#2C2C3AFF, #787891FF</td><td><span class="c" style="background:linear-gradient(180deg,#2C2C3AFF,#787891FF)"></span></td></tr>
-                <tr><td>INFRARED</td><td>#F65560FF, #442CEDFF</td><td><span class="c" style="background:linear-gradient(192deg,#F65560FF,#442CEDFF)"></span></td></tr>
-                <tr><td>LAGOON</td><td>#004066FF, #32867DFF</td><td><span class="c" style="background:linear-gradient(180deg,#004066FF,#32867DFF)"></span></td></tr>
-                <tr><td>FLUORESCENT</td><td>#EC13DDFF, #1B36C6FF</td><td><span class="c" style="background:linear-gradient(192deg,#EC13DDFF,#1B36C6FF)"></span></td></tr>
-                <tr><td>BASIL</td><td>#2F9373FF, #077343FF</td><td><span class="c" style="background:linear-gradient(180deg,#2F9373FF,#077343FF)"></span></td></tr>
-                <tr><td>SUBLIME</td><td>#6281D5FF, #974460FF</td><td><span class="c" style="background:linear-gradient(180deg,#6281D5FF,#974460FF)"></span></td></tr>
-                <tr><td>SEA</td><td>#498FD4FF, #2C66A0FF</td><td><span class="c" style="background:linear-gradient(180deg,#498FD4FF,#2C66A0FF)"></span></td></tr>
-                <tr><td>TANGERINE</td><td>#DB7133FF, #911231FF</td><td><span class="c" style="background:linear-gradient(192deg,#DB7133FF,#911231FF)"></span></td></tr>
-            </tbody>
-        </table>
-    </body>
-</html>
+            <h1>Bubble colors (solid)</h1>
+            <div class="color-grid">
+                
+    <div class="color">
+        <div class="color-circle" style="background: #315FF4FF"></div>
+        <span class="color-id">ULTRAMARINE</span>
+        <span class="color-hex">#315FF4FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #CF163EFF"></div>
+        <span class="color-id">CRIMSON</span>
+        <span class="color-hex">#CF163EFF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #C73F0AFF"></div>
+        <span class="color-id">VERMILION</span>
+        <span class="color-hex">#C73F0AFF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #6F6A58FF"></div>
+        <span class="color-id">BURLAP</span>
+        <span class="color-hex">#6F6A58FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #3B7845FF"></div>
+        <span class="color-id">FOREST</span>
+        <span class="color-hex">#3B7845FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #1D8663FF"></div>
+        <span class="color-id">WINTERGREEN</span>
+        <span class="color-hex">#1D8663FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #077D92FF"></div>
+        <span class="color-id">TEAL</span>
+        <span class="color-hex">#077D92FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #336BA3FF"></div>
+        <span class="color-id">BLUE</span>
+        <span class="color-hex">#336BA3FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #6058CAFF"></div>
+        <span class="color-id">INDIGO</span>
+        <span class="color-hex">#6058CAFF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #9932CBFF"></div>
+        <span class="color-id">VIOLET</span>
+        <span class="color-hex">#9932CBFF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #AA377AFF"></div>
+        <span class="color-id">PLUM</span>
+        <span class="color-hex">#AA377AFF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #8F616AFF"></div>
+        <span class="color-id">TAUPE</span>
+        <span class="color-hex">#8F616AFF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: #71717FFF"></div>
+        <span class="color-id">STEEL</span>
+        <span class="color-hex">#71717FFF</span>
+    </div>
+    
+            </div>
+            
+            <h1>Bubble colors (gradient)</h1>
+            <div class="color-grid">
+                
+    <div class="color">
+        <div class="color-circle" style="background: linear-gradient(168deg, #E57C00FF 0%, #5E0000FF 100%)"></div>
+        <span class="color-id">EMBER</span>
+        <span class="color-hex">#E57C00FF</span><span class="color-hex">#5E0000FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: linear-gradient(180deg, #2C2C3AFF 0%, #787891FF 100%)"></div>
+        <span class="color-id">MIDNIGHT</span>
+        <span class="color-hex">#2C2C3AFF</span><span class="color-hex">#787891FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: linear-gradient(192deg, #F65560FF 0%, #442CEDFF 100%)"></div>
+        <span class="color-id">INFRARED</span>
+        <span class="color-hex">#F65560FF</span><span class="color-hex">#442CEDFF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: linear-gradient(180deg, #004066FF 0%, #32867DFF 100%)"></div>
+        <span class="color-id">LAGOON</span>
+        <span class="color-hex">#004066FF</span><span class="color-hex">#32867DFF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: linear-gradient(192deg, #EC13DDFF 0%, #1B36C6FF 100%)"></div>
+        <span class="color-id">FLUORESCENT</span>
+        <span class="color-hex">#EC13DDFF</span><span class="color-hex">#1B36C6FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: linear-gradient(180deg, #2F9373FF 0%, #077343FF 100%)"></div>
+        <span class="color-id">BASIL</span>
+        <span class="color-hex">#2F9373FF</span><span class="color-hex">#077343FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: linear-gradient(180deg, #6281D5FF 0%, #974460FF 100%)"></div>
+        <span class="color-id">SUBLIME</span>
+        <span class="color-hex">#6281D5FF</span><span class="color-hex">#974460FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: linear-gradient(180deg, #498FD4FF 0%, #2C66A0FF 100%)"></div>
+        <span class="color-id">SEA</span>
+        <span class="color-hex">#498FD4FF</span><span class="color-hex">#2C66A0FF</span>
+    </div>
+    
+    <div class="color">
+        <div class="color-circle" style="background: linear-gradient(192deg, #DB7133FF 0%, #911231FF 100%)"></div>
+        <span class="color-id">TANGERINE</span>
+        <span class="color-hex">#DB7133FF</span><span class="color-hex">#911231FF</span>
+    </div>
+    
+            </div>
+            
+            Sourced from 
+            <a href="https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/ChatColorsPalette.kt">
+                https://github.com/signalapp/Signal-Android/blob/main/app/src/main/java/org/thoughtcrime/securesms/conversation/colors/ChatColorsPalette.kt
+            </a>
+        </body>
+    </html>
+    

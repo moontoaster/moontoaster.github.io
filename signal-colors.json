@@ -1,0 +1,312 @@
+{
+  "nameColors": [
+    {
+      "light": "#006da3ff",
+      "dark": "#00a7faff"
+    },
+    {
+      "light": "#067906ff",
+      "dark": "#0ab80aff"
+    },
+    {
+      "light": "#b814b8ff",
+      "dark": "#f65af6ff"
+    },
+    {
+      "light": "#c13215ff",
+      "dark": "#ff6f52ff"
+    },
+    {
+      "light": "#5b6976ff",
+      "dark": "#8ba1b6ff"
+    },
+    {
+      "light": "#cc0066ff",
+      "dark": "#f76eb2ff"
+    },
+    {
+      "light": "#2e51ffff",
+      "dark": "#8599ffff"
+    },
+    {
+      "light": "#007575ff",
+      "dark": "#00b2b2ff"
+    },
+    {
+      "light": "#9c5711ff",
+      "dark": "#d5920bff"
+    },
+    {
+      "light": "#d00b4dff",
+      "dark": "#ff6b9cff"
+    },
+    {
+      "light": "#8f2af4ff",
+      "dark": "#bf80ffff"
+    },
+    {
+      "light": "#3d7406ff",
+      "dark": "#5eb309ff"
+    },
+    {
+      "light": "#d00b0bff",
+      "dark": "#ff7070ff"
+    },
+    {
+      "light": "#007a3dff",
+      "dark": "#00b85cff"
+    },
+    {
+      "light": "#5151f6ff",
+      "dark": "#9494ffff"
+    },
+    {
+      "light": "#866118ff",
+      "dark": "#d68f00ff"
+    },
+    {
+      "light": "#067953ff",
+      "dark": "#00b87aff"
+    },
+    {
+      "light": "#a20cedff",
+      "dark": "#cf7cf8ff"
+    },
+    {
+      "light": "#4b7000ff",
+      "dark": "#74ad00ff"
+    },
+    {
+      "light": "#c70a88ff",
+      "dark": "#f76ec9ff"
+    },
+    {
+      "light": "#b34209ff",
+      "dark": "#f57a3dff"
+    },
+    {
+      "light": "#06792dff",
+      "dark": "#0ab844ff"
+    },
+    {
+      "light": "#7a3df5ff",
+      "dark": "#af8af9ff"
+    },
+    {
+      "light": "#6b6b24ff",
+      "dark": "#a4a437ff"
+    },
+    {
+      "light": "#d00b2cff",
+      "dark": "#f77389ff"
+    },
+    {
+      "light": "#2d7906ff",
+      "dark": "#42b309ff"
+    },
+    {
+      "light": "#af0bd0ff",
+      "dark": "#e06ef7ff"
+    },
+    {
+      "light": "#32763eff",
+      "dark": "#4baf5cff"
+    },
+    {
+      "light": "#2662d9ff",
+      "dark": "#7da1e8ff"
+    },
+    {
+      "light": "#76681eff",
+      "dark": "#b89b0aff"
+    },
+    {
+      "light": "#067462ff",
+      "dark": "#09b397ff"
+    },
+    {
+      "light": "#6447f5ff",
+      "dark": "#a18ff9ff"
+    },
+    {
+      "light": "#5e6e0cff",
+      "dark": "#8faa09ff"
+    },
+    {
+      "light": "#077288ff",
+      "dark": "#00aed1ff"
+    },
+    {
+      "light": "#c20aa3ff",
+      "dark": "#f75fddff"
+    },
+    {
+      "light": "#2d761eff",
+      "dark": "#43b42dff"
+    }
+  ],
+  "bubbleSolidColors": [
+    {
+      "id": "ULTRAMARINE",
+      "color": "#315FF4FF"
+    },
+    {
+      "id": "CRIMSON",
+      "color": "#CF163EFF"
+    },
+    {
+      "id": "VERMILION",
+      "color": "#C73F0AFF"
+    },
+    {
+      "id": "BURLAP",
+      "color": "#6F6A58FF"
+    },
+    {
+      "id": "FOREST",
+      "color": "#3B7845FF"
+    },
+    {
+      "id": "WINTERGREEN",
+      "color": "#1D8663FF"
+    },
+    {
+      "id": "TEAL",
+      "color": "#077D92FF"
+    },
+    {
+      "id": "BLUE",
+      "color": "#336BA3FF"
+    },
+    {
+      "id": "INDIGO",
+      "color": "#6058CAFF"
+    },
+    {
+      "id": "VIOLET",
+      "color": "#9932CBFF"
+    },
+    {
+      "id": "PLUM",
+      "color": "#AA377AFF"
+    },
+    {
+      "id": "TAUPE",
+      "color": "#8F616AFF"
+    },
+    {
+      "id": "STEEL",
+      "color": "#71717FFF"
+    }
+  ],
+  "bubbleGradientColors": [
+    {
+      "id": "EMBER",
+      "degrees": 168,
+      "colors": [
+        "#E57C00FF",
+        "#5E0000FF"
+      ],
+      "positions": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "MIDNIGHT",
+      "degrees": 180,
+      "colors": [
+        "#2C2C3AFF",
+        "#787891FF"
+      ],
+      "positions": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "INFRARED",
+      "degrees": 192,
+      "colors": [
+        "#F65560FF",
+        "#442CEDFF"
+      ],
+      "positions": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "LAGOON",
+      "degrees": 180,
+      "colors": [
+        "#004066FF",
+        "#32867DFF"
+      ],
+      "positions": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "FLUORESCENT",
+      "degrees": 192,
+      "colors": [
+        "#EC13DDFF",
+        "#1B36C6FF"
+      ],
+      "positions": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "BASIL",
+      "degrees": 180,
+      "colors": [
+        "#2F9373FF",
+        "#077343FF"
+      ],
+      "positions": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "SUBLIME",
+      "degrees": 180,
+      "colors": [
+        "#6281D5FF",
+        "#974460FF"
+      ],
+      "positions": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "SEA",
+      "degrees": 180,
+      "colors": [
+        "#498FD4FF",
+        "#2C66A0FF"
+      ],
+      "positions": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "TANGERINE",
+      "degrees": 192,
+      "colors": [
+        "#DB7133FF",
+        "#911231FF"
+      ],
+      "positions": [
+        0,
+        1
+      ]
+    }
+  ]
+}
